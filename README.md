@@ -1,4 +1,4 @@
-PROJECT MADE BY SWETA KUMARI SHARMA.
+PROJECT MADE BY Prakash pandit.
 
 Spark Foundation (GRIP 2022) Web Development Internship Project #TASK1 : Basic Banking System Website.
 A web application used to transfer virtual money between multiple users and 
