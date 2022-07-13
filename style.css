@@ -1,0 +1,229 @@
+/* font-family: 'Syne Tactile', cursive;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Ubuntu Mono', monospace; */
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 100vh;
+    background-image: url("https://media.istockphoto.com/photos/finger-balancing-stacked-coins-on-seesaw-picture-id908800938?k=20&m=908800938&s=612x612&w=0&h=G4tuQW6q--DTIYn5Vl1nDRJphuAs0vED642gTRkD4Wc=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.99;
+}
+
+h1{
+    font-family: 'Ubuntu Mono'
+}
+        
+.navbar{
+    background-color: black;
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* margin: 15px 0px;
+    padding: 15px 36px; */
+    align-items: center;
+}
+
+.navbar li{
+    list-style: none;
+}
+
+.navbar li a{
+    text-decoration: none;
+    font-family: 'Ubuntu Mono', monospace;
+    color: white;
+    padding: 20px 20px;
+    margin: 20px 20px;
+    font-weight: bold;
+    font-size: 20px;   
+}
+
+.navbar .left{
+    padding: 10px 10px;
+}
+
+.navbar .right{
+    float: right;
+}
+
+.navbar li a:hover{
+    color: teal;
+}
+
+
+
+.left-sec .animate__fadeInLeftBig{
+    animation-duration: 3s;
+	animation-timing-function: cubic-bezier(0.55, 0.610, 0.355, 1);
+}
+
+
+.left-sec .animate__fadeInRightBig{
+    animation-duration: 3s;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    /* animation-delay: 3s; */
+}
+
+.mainHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer{
+    color: whitesmoke;
+    position: fixed;
+    bottom: 46px;
+    right: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+
+.mainHeader img{
+    width: 100px;
+	height: 100px;
+	margin: auto;
+	border-radius: 100px;
+    padding: 10px;
+}
+
+.mainHeader h1{
+    font-family: 'Ubuntu Mono';
+	font-size: 35px;
+	text-transform: capitalize;
+	font-weight: 700;
+	margin: 15px 0;
+    color: aliceblue;
+}
+
+.container thead{
+    color: black;
+    font-weight: bolder;
+    background-color: darkseagreen;
+    font-family: 'Ubuntu Mono', monospace;
+    opacity: 0.5;
+}
+
+.container tbody{
+    color: teal;
+    font-weight: bolder;
+    background-color: antiquewhite;
+    opacity: 0.5;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container h1{
+    text-align: center;
+    padding: 40px;
+    margin: 30px;
+}
+
+/* styling for contact.html */
+.headc .details{
+    display: flex;
+    flex-direction: row;
+}
+
+.headc h1{
+    text-align: center;
+    padding: 40px;
+    margin: 30px;
+}
+
+.card{
+    width: 30%;
+    margin: 20px;
+    padding: 4px;
+    opacity: 40%;
+    /* align-items: center; */
+    justify-content: center;
+    font-weight: bold;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+/* styling help.html */
+.headh h1{
+    text-align: center;
+    padding: 40px;
+    margin: 30px;
+    
+}
+
+.headh .details{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: auto;
+}
+
+.headh .details input{
+    text-align: center;
+    margin: 6px;
+    padding: 4px;
+    outline: none;
+}
+
+.headh .details .btn{
+    border: 2px solid black;
+    border-radius: 2px;
+    width: 486px;
+    margin: auto;
+    background-color: green;
+    padding: 4px;
+    outline: none;
+}
+
+/* styling about.html */
+.heada h1{
+    text-align: center;
+    padding: 40px;
+    margin: 30px;
+}
+
+.heada p{
+    width: 500px;
+    margin: auto;
+}
+
+/* styling footer */
+#footer{
+    height: 46px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Ubuntu Mono', monospace;
+    padding: 9px;
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+}
+
+
+.header-2 h1{
+    color: black;
+}
+
+.table-hover .hd{
+    background-color: black;
+    color: white;
+}
+
+.active{
+    color: gray;
+}
